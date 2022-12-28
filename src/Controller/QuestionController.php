@@ -22,11 +22,12 @@ class QuestionController
     }
 
      /**
-     * @Route("/questions/How to use symfony")
+     * @Route("/questions/{slug}")
      */
-    public function show()
+    public function show($slug)
     {
-        return new Response('for use symfony we must undrestand this cours');
+        return new Response(sprintf('for use symfony we must undrestand this cours this is 
+        the best ansewr for question "%s"',$slug));
         
     }
 
