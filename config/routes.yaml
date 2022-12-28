@@ -1,3 +1,4 @@
 #index:
-   #path: /
- #   controller: App\Controller\QuestionController::homepage
+  # path: /
+   #  controller: App\Controller\QuestionController::homepage
+   
